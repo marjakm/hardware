@@ -1,0 +1,147 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Teensy3.0
+LIBS:auto_controller-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Auto kontroller"
+Date "24 nov 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2SC1815 Q?
+U 1 1 54735C40
+P 2800 2150
+F 0 "Q?" H 2800 2001 40  0000 R CNN
+F 1 "2SC1815" H 2800 2300 40  0000 R CNN
+F 2 "TO92" H 2700 2252 29  0000 C CNN
+F 3 "" H 2800 2150 60  0000 C CNN
+	1    2800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2SC1815 Q?
+U 1 1 54735C4F
+P 3500 2150
+F 0 "Q?" H 3500 2001 40  0000 R CNN
+F 1 "2SC1815" H 3500 2300 40  0000 R CNN
+F 2 "TO92" H 3400 2252 29  0000 C CNN
+F 3 "" H 3500 2150 60  0000 C CNN
+	1    3500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEENSY_3.0+4_TEENSY_3.0+4 U0
+U 1 1 547362E4
+P 5100 2000
+F 0 "U0" H 5100 2000 10  0001 C CNN
+F 1 "TEENSY_3.0+4_TEENSY_3.0+4" H 5100 2000 0   0001 C CNN
+F 2 "" H 5100 2000 60  0000 C CNN
+F 3 "" H 5100 2000 60  0000 C CNN
+	1    5100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 SHARP_L0
+U 1 1 54736420
+P 7450 1200
+F 0 "SHARP_L0" V 7400 1200 39  0000 C CNN
+F 1 "CONN_3" V 7500 1200 40  0000 C CNN
+F 2 "" H 7450 1200 60  0000 C CNN
+F 3 "" H 7450 1200 60  0000 C CNN
+	1    7450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 SHARP_L1
+U 1 1 54736574
+P 7450 1550
+F 0 "SHARP_L1" V 7400 1550 39  0000 C CNN
+F 1 "CONN_3" V 7500 1550 40  0000 C CNN
+F 2 "" H 7450 1550 60  0000 C CNN
+F 3 "" H 7450 1550 60  0000 C CNN
+	1    7450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 SHARP_F0
+U 1 1 54736590
+P 7450 2000
+F 0 "SHARP_F0" V 7400 2000 39  0000 C CNN
+F 1 "CONN_3" V 7500 2000 40  0000 C CNN
+F 2 "" H 7450 2000 60  0000 C CNN
+F 3 "" H 7450 2000 60  0000 C CNN
+	1    7450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 SHARP_F1
+U 1 1 54736596
+P 7450 2350
+F 0 "SHARP_F1" V 7400 2350 39  0000 C CNN
+F 1 "CONN_3" V 7500 2350 40  0000 C CNN
+F 2 "" H 7450 2350 60  0000 C CNN
+F 3 "" H 7450 2350 60  0000 C CNN
+	1    7450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 SHARP_R0
+U 1 1 547365B4
+P 7450 2800
+F 0 "SHARP_R0" V 7400 2800 39  0000 C CNN
+F 1 "CONN_3" V 7500 2800 40  0000 C CNN
+F 2 "" H 7450 2800 60  0000 C CNN
+F 3 "" H 7450 2800 60  0000 C CNN
+	1    7450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 SHARP_R1
+U 1 1 547365BA
+P 7450 3150
+F 0 "SHARP_R1" V 7400 3150 39  0000 C CNN
+F 1 "CONN_3" V 7500 3150 40  0000 C CNN
+F 2 "" H 7450 3150 60  0000 C CNN
+F 3 "" H 7450 3150 60  0000 C CNN
+	1    7450 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

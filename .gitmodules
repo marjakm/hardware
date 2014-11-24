@@ -1,0 +1,3 @@
+[submodule "controller/Eagle2Kicad"]
+	path = controller/Eagle2Kicad
+	url = https://github.com/DanChianucci/Eagle2Kicad.git
